@@ -39,7 +39,7 @@ This project helped me understand how real production traffic is routed inside K
 
 ## Architecture
 
-
+![Architecture](screenshots/1.png)
 
 ### Routing Configuration
 
@@ -113,6 +113,9 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main
 kubectl apply -f ingress.yml
 ```
 
+![Resources](screenshots/2.png)
+![Resources](screenshots/3.png)
+
 ---
 
 ## Access Application
@@ -127,6 +130,9 @@ Open in browser:
 http://<EXTERNAL-IP>/        → Notes App
 http://<EXTERNAL-IP>/nginx  → NGINX
 ```
+
+![Access](screenshots/4.png)
+![Access](screenshots/5.png)
 
 ---
 
